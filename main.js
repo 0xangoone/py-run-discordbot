@@ -2,7 +2,7 @@ const { Client, Events, GatewayIntentBits,Collection } = require("discord.js");
 const { exec } = require('child_process');
 const fs = require('fs');
 const { stderr } = require("process");
-const {token} = require("./token.json")
+const token = "____________TOKEN______________"
 
 
 const client = new Client({ 
